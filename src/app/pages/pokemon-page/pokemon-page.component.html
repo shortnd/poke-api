@@ -1,0 +1,8 @@
+<div *ngIf="loading">
+    Loading...
+</div>
+<ul>
+    <li *ngFor="let mon of pokemon">
+        <a [href]="mon.url">{{ mon.name }}</a>
+    </li>
+</ul>
